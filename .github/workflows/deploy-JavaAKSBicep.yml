@@ -15,8 +15,8 @@ name: Build and Deploy Application
 env:
   DEPLOYMENT_NAME: "portintegration"
   DEPLOYMENT_REGION: "westeurope"
-  ACR_NAME: "petclinicaksacr"
-  CLUSTER_NAME: "aks-cluster"
+  ACR_NAME: "portintegrationacr"
+  CLUSTER_NAME: "portintegrationaks"
 
 on:
   # Triggers the workflow on push events on the main branch
