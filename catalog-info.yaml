@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Application
+kind: service
 metadata:
   name: Petclinic
   description: |
@@ -18,6 +18,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: application
+  type: service
   owner: Blue
   lifecycle: production
